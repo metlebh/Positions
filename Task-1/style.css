@@ -1,0 +1,65 @@
+.parent{
+    height: 500px;
+    width: 500px;
+    border: 1px solid #FF9C9C;
+    position: relative;
+}
+.child-1{
+    height: 150px;
+    width: 150px;
+    background-color: #4169E0;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+    position: absolute;
+    z-index: 2;
+
+}
+.child-2{
+    height: 150px;
+    width: 150px;
+    background-color: #B0E1E6;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+    position: absolute;
+    top: 40px;
+    z-index: 3;
+}
+.child-3{
+    height: 150px;
+    width: 150px;
+    background-color: #A1522D;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 20px; 
+    position: absolute;
+    z-index: 1;
+    top: 100px;
+}
+.child-4{
+    height: 150px;
+    width: 150px;
+    background-color: #695ACD;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 20px; 
+    position: absolute;
+    bottom: 10px
+}
+
+.One{
+    margin-left: 59px;
+
+}
+
+.Two{
+    margin-left: 59px;
+}
+.Three{
+    margin-left: 59px;
+}
+.Four{
+    margin-left: 59px;
+
+}

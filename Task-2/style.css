@@ -1,0 +1,45 @@
+.parent{
+    height: 400px;
+    width: 700px;
+    border: 2px dashed black;
+    position: relative
+}
+.Child-1{
+ height: 100px;
+ width: 200px;
+ background-color: #FE352D;
+ position: absolute;
+ top: 0px;
+}
+.Child-2{
+    height: 100px;
+    width: 200px;
+    background-color: #E7E618;
+    position: absolute;
+    bottom: 0px;
+}
+.Child-3{
+    height: 100px;
+    width: 200px;
+    background-color: #FD7F02;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.Child-4{
+    height: 100px;
+    width: 200px;
+    background-color: #27D828;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.Child-5{
+    height: 100px;
+    width: 200px;
+    background-color: #27D828;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) 
+}
